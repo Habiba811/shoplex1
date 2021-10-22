@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.alpha.shoplex">
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.MANAGE_DOCUMENTS "/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Shoplex"
+        android:name="com.alpha.shoplex.model.extra.ArchLifecycleApp">
+
+        <activity android:name="com.alpha.shoplex.view.activities.FilterActivity"/>
+        <activity android:name="com.alpha.shoplex.view.activities.DescriptionActivity"
+            android:screenOrientation="portrait"/>
+
+        <activity
+            android:name="com.alpha.shoplex.view.activities.MapsActivity"
+            android:label="@string/title_activity_maps" />
+        <activity android:name="com.alpha.shoplex.view.activities.ProfileActivity" />
+        <activity android:name="com.alpha.shoplex.view.activities.OrderActivity"/>
+        <activity android:name="com.alpha.shoplex.view.activities.MessageActivity" />
+        <activity android:name="com.alpha.shoplex.view.activities.HomeActivity"
+                  android:windowSoftInputMode="adjustPan"
+            />
+        <activity
+            android:name="com.alpha.shoplex.view.activities.SplashActivity"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.Shoplex.NoActionBar"
+            android:windowSoftInputMode="adjustNothing">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+        </activity>
+        <activity android:name="com.alpha.shoplex.view.activities.CheckOutActivity"/>
+        <activity android:name="com.alpha.shoplex.view.activities.DetailsActivity" />
+        <activity android:name="com.alpha.shoplex.view.activities.auth.AuthActivity"/>
+
+        <service
+            android:name="com.alpha.shoplex.model.services.MyFirebaseMessagingService"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/maps_key" />
+        <meta-data
+            android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/facebook_app_id" />
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+
+    </application>
+
+</manifest>

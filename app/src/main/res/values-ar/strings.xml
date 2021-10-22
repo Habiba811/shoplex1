@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="maps_key">API_KEY</string>
+    <string name="app_name">شوبلكس</string>
+    <string name="chat">المحادثات</string>
+    <string name="LastOrder">الطلبات السابقة</string>
+    <string name="productName">اسم المنتج</string>
+    <string name="product">المنتجات</string>
+    <string name="reviews">التعليقات</string>
+    <string name="property">أختر الحجم</string>
+    <string name="todo">TODO</string>
+    <string name="category">الفئة الفرعية</string>
+    <string name="Add">أضف إلى السلة</string>
+    <string name="buy">اشتري الآن</string>
+    <string name="TV">تلفزيون</string>
+    <string name="sold">%s/%s تم بيعه</string>
+    <string name="name">الاسم</string>
+    <string name="notification">الاشعارات</string>
+    <string name="user_name">اسم المستخدم</string>
+    <string name="type_a_message">اكتب رسالة</string>
+    <string name="chatdiscount">يمكنك الاتفاق مع البائع على أي خصم</string>
+    <string name="cancel">إلغاء</string>
+    <string name="orders">الطلبات</string>
+    <string name="currentOrder">الطلبات الحالية</string>
+    <string name="logOut">تسجيل الخروج</string>
+    <string name="profile">الملف الشخصي</string>
+    <string name="share">مشاركة</string>
+    <string name="setting">الأعدادات</string>
+    <string name="rateUs">التقيم</string>
+    <string name="arabic">اللغة العربية</string>
+    <string name="email">البريد إلكتروني</string>
+    <string name="phone">رقم الهاتف</string>
+    <string name="password">كلمه المرور</string>
+    <string name="save">حفظ</string>
+    <string name="helperText">لا يمكنك تغيير عنوان بريدك الإلكتروني</string>
+    <string name="title_activity_maps">الخريطه</string>
+    <string name="filter">تصنيف</string>
+    <string name="login">تسجيل الدخول</string>
+    <string name="forgotPassword">نسيت كلمة المرور؟</string>
+    <string name="Checkout">الدفع</string>
+    <string name="Delivery">التوصيل</string>
+    <string name="Payment">دفع</string>
+    <string name="Summary">ملخص</string>
+    <string name="DeliveryMethod">طريقة التوصيل</string>
+    <string name="DoorDelivery">التسليم الى الباب</string>
+    <string name="NearestPostStation">أقرب مكتب بريد</string>
+    <string name="SubTotal">المجموع الفرعي :</string>
+    <string name="Discount">خصم :</string>
+    <string name="Shipping">الشحن :</string>
+    <string name="Total">الاجمالى:</string>
+    <string name="totalPrice">220 $</string>
+    <string name="ShippingAddress">عنوان الشحن</string>
+    <string name="change">تغير</string>
+    <string name="process">عملية الدفع</string>
+    <string name="paymentmethod">طريقة الدفع</string>
+    <string name="cash">الدفع عند الاستلام</string>
+    <string name="Quantity">الكمية</string>
+    <string name="Price">السعر</string>
+    <string name="confirmorder">أكد الطلب</string>
+    <!-- Strings used for fragments for navigation -->
+
+    <string name="Name">الاسم</string>
+    <string name="choose_location">اختر موقعك</string>
+    <string name="Required">مطلوب</string>
+    <string name="require_email">البريد الإلكتروني مطلوب</string>
+    <string name="min_password_err">"كلمة المرور ضغيفة"</string>
+    <string name="not_match">رمز مرور خاطئ</string>
+    <string name="min_client_name_err">هذاالاسم غير صحيح</string>
+    <string name="shopes">المتاجر</string>
+    <string name="rate">التقيم</string>
+    <string name="discountFilter">الخصم</string>
+    <string name="sort">ترتيب</string>
+    <string name="nearest_shop">أقرب متجر</string>
+
+    <string-array name="initial_slider_values">
+        <item>10</item>
+        <item>1000</item>
+    </string-array>
+    <string name="login_success">تم تسجيل الدخول بنجاح</string>
+    <string name="login_fail">فشل تسجيل الدخول</string>
+    <string name="logoutMessage">هل أنت متأكد أنك تريد تسجيل الخروج؟</string>
+    <string name="yes">نعم</string>
+    <string name="no">لا</string>
+    <string name="totalAmount">المبلغ الإجمالي</string>
+    <string name="what_is_your_rate">ما هو تقييمك؟</string>
+    <string name="please_share_your_oponion_about_the_product">يرجى مشاركة رأيك حول المنتج</string>
+    <string name="your_review">تعليقك</string>
+    <string name="send_review">ارسال تعليق</string>
+    <string name="English">الانجليزيه</string>
+    <string name="productId">productID</string>
+
+    <string name="favorite">المفضلة</string>
+    <string name="العربية">اللغة العربية</string>
+    <string name="Products">المنتجات</string>
+    <string name="Reviews">التعليقات</string>
+    <string name="ClickableViewAccessibility">ClickableViewAccessibility</string>
+    <string name="notchannelid">net.larntech.notification</string>
+    <string name="title">العنوان</string>
+    <string name="body">المحتوى</string>
+    <string name="custom">custom://</string>
+    <string name="actionstring">سلسلة العمل</string>
+    <string name="Review">تعليق</string>
+    <string name="android">android.resource://</string>
+    <string name="splash">/</string>
+    <string name="Position">موضع</string>
+    <string name="EGP">جـ.م.%s</string>
+    <string name="storename">اسم المتجر</string>
+    <string name="OK">موافق</string>
+    <string name="messages">الرسائل</string>
+    <string name="Success">تم بنجاح</string>
+    <string name="pleaseLogin">الرجاء تسجيل الدخول للوصول إلى كافة الميزات</string>
+    <string name="Error">خطأ</string>
+    <string name="underscore">_</string>
+    <string name="tel">رقم الهاتف:</string>
+    <string name="telephone">رقم الهاتف:</string>
+    <string name="ERROR">خطأ</string>
+    <string name="call">اتصال</string>
+    <string name="report">بلاغ</string>
+    <string name="proplem">من فضلك شاركنا مشكلتك !!</string>
+    <string name="your_report">بلاغك</string>
+    <string name="send_report">إرسال البلاغ</string>
+    <string name="facebook_app_id">562190761433964</string>
+    <string name="fb_login_protocol_scheme">fb562190761433964</string>
+    <string name="phone_hint">+201204876123</string>
+    <string name="visaORMaster">فيزا / ماستر</string>
+    <string name="items">%s عناصر</string>
+    <string name="Login">تسجيل الدخول</string>
+    <string name="Signup">تسجيل</string>
+    <string name="Confirmpassword">تأكيد كلمة المرور</string>
+    <string name="UpdateAccount">تم تحديث ملفك الشخصي بنجاح</string>
+    <string name="error">هناك مشكلة</string>
+    <string name="processtosummary">انتقل إلي الملخص</string>
+    <string name="NoInternetConnection">أنت غير متصل بالشبكة من فضلك حاول مرة اخري!</string>
+    <string name="Telephone">Telephone not supported</string>
+    <string name="UpdateReview">تحديث التقييم</string>
+    <string name="outOfStock">نفذت الكمية</string>
+    <string name="NA">لا يوجد</string>
+    <string name="LE">%s جـ.م.</string>
+    <string name="Cost">تكلفة المنتج</string>
+    <string name="SpecialCoupons">كوبون خاص</string>
+    <string name="DontHaveSpecialCoupons">لا تملك أي كوبون خاص</string>
+    <string name="fullAccess">قم بالتسجيل لاتاحة الوصول الكامل</string>
+    <string name="reset">إعادة تعيين كلمة المرور</string>
+    <string name="close_dialog">إغلاق</string>
+    <string name="email_send">أرسال الايميل</string>
+    <string name="NoReviews">لا توجد تقييمات بعد!</string>
+    <string name="cart">عربة التسوق</string>
+    <string name="home">الرئيسية</string>
+    <string name="account">الشخصية</string>
+    <string name="search">بحث</string>
+    <string name="high_price">أعلى سعر</string>
+    <string name="low_price">أقل سعر</string>
+    <string name="not_connection">غير متصل</string>
+    <string name="orLoginwith">أو التسجيل بواسطة</string>
+    <string name="StrEGP">جـ.م.</string>
+    <string name="confirm">موافق</string>
+    <string name="noitem">لا يوجد عنصر حتي الان!</string>
+    <string name="choose_image">من فضلك أختار صورة</string>
+    <string name="enter_mobile">من فضلك ادخل رقم هاتف صحيح(+2)</string>
+    <string name="Product_not_found">المنتج غير موجود!</string>
+    <string name="no_store">لا توجد متاجر</string>
+    <string name="phone_not_specified">رقم الهاتف غير صحيح</string>
+    <string name="delete">مسح</string>
+    <string name="deleteMessage">هل أنت متأكد من ازالة هذا العنصر؟</string>
+    <string name="deleteSuccess">تم المسح بنجاح</string>
+    <string name="errorRegister">لا تستطيع التسجيل الأن</string>
+    <string name="createAccount">تم تسجيل الدخول بنجاح</string>
+    <string name="errorAuth" >فشل في المصادقة</string>
+    <string name="failed">فشل</string>
+    <string name="cancelOrder">الغاء!</string>
+    <string name="cancelMessage">هل أنت متاكد من الغاء هذا الطلب ؟!!</string>
+    <string name="max">تم الوصول للحد الأقصي</string>
+    <string name="emailExist">هذا الايميل موجود مسبقاً</string>
+    <string name="fail_payment">فشل  تحميل طريقة الدفع</string>
+    <string name="minimum_charge">أقل نسبة شحن باستخدام بطاقة إئتمان عشرة جنيهات </string>
+    <string name="emptyCart">عربة التسوق فارغة</string>
+    <string name="Remove">حذف</string>
+    <string name="welcomeShoplex">اهلا بك ف شوبلكس</string>
+    <string name="language">English</string>
+    <string name="check_address">من فضلك ادخل عنوان توصيل الطلب</string>
+
+    <string-array name="categories">
+        <item>موضه</item>
+        <item>العنايةالشخصية</item>
+        <item>موبيل وتابلت</item>
+        <item>الكترونيات</item>
+        <item>اكسسوارات</item>
+        <item>كتب</item>
+    </string-array>
+
+    <string-array name="arr_subFashion">
+        <item>رجالى</item>
+        <item>نسائى</item>
+        <item>اطفال</item>
+    </string-array>
+
+    <string-array name="arr_subHealthCare">
+        <item>العناية بالشعر</item>
+        <item>عطور</item>
+        <item>ميكاب</item>
+    </string-array>
+
+    <string-array name="arr_subPhoneAndTablet">
+        <item>هواتف</item>
+        <item>تابلت</item>
+        <item>آى باد</item>
+    </string-array>
+
+    <string-array name="arr_subElectronic">
+        <item>تلفزيونات</item>
+        <item>سماعات</item>
+        <item>ساعات ذكيه</item>
+        <item>كاميرات</item>
+        <item>أخري</item>
+    </string-array>
+    <string-array name="arr_subAccessories">
+        <item>مجوهرات</item>
+        <item>ساعات</item>
+        <item>احزمة</item>
+        <item>جرابات هواتف</item>
+        <item>كابلات</item>
+        <item>شواحن</item>
+        <item>عصي سيلفي</item>
+    </string-array>
+    <string-array name="arr_subBook">
+        <item>آداب</item>
+        <item>خيال علمي</item>
+        <item>ترفيه</item>
+        <item>علوم وتكنولوجيا</item>
+        <item>تعليمي</item>
+    </string-array>
+    <string name="noStores">لا يوجد متاجر لهذا النوع</string>
+    <string name="pleaseAddRate">من فضلك إختر تقييم للمنتج</string>
+
+</resources>

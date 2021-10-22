@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/linear_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="20dp">
+
+    <!-- Parent Layout of ImageView -->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <!--Image to be displayed beside the notification text-->
+        <ImageView
+            android:id="@+id/icon"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:padding="5dp"
+            android:src="@drawable/ic_notifications" />
+    </LinearLayout>
+
+    <!-- Parent layout for holding the Title and the Body-->
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:padding="5dp">
+
+        <!-- TextView for Title -->
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Title"
+            android:textColor="#000"
+            android:textStyle="bold" />
+
+        <!-- TextView for Body -->
+        <TextView
+            android:id="@+id/message"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Message"
+            android:textSize="15sp" />
+<!--       <LinearLayout-->
+<!--           android:layout_width="match_parent"-->
+<!--           android:layout_height="0dp"-->
+<!--           android:layout_weight="1"-->
+<!--           android:layout_marginTop="@dimen/margin_6"-->
+<!--           android:orientation="horizontal">-->
+<!--           <Button-->
+<!--               android:id="@+id/cancel"-->
+<!--               android:layout_width="@dimen/width_100"-->
+<!--               android:layout_height="@dimen/height_45"-->
+<!--               android:text="@string/cancel"-->
+<!--               android:layout_marginStart="@dimen/margin_6"-->
+<!--               android:backgroundTint="@color/darkBlue"-->
+<!--               android:background="@color/darkBlue"-->
+<!--               android:textColor="@color/white"/>-->
+<!--           <Button-->
+<!--               android:id="@+id/review"-->
+<!--               android:layout_width="@dimen/width_100"-->
+<!--               android:layout_height="@dimen/height_45"-->
+<!--               android:text="@string/reviews"-->
+<!--               android:layout_marginStart="@dimen/margin_64"-->
+<!--               android:backgroundTint="@color/darkBlue"-->
+<!--               android:background="@color/darkBlue"-->
+<!--               android:textColor="@color/white">-->
+
+<!--           </Button>-->
+<!--       </LinearLayout>-->
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+        <import type="android.view.View"/>
+        <variable
+            name="summary"
+            type="com.alpha.shoplex.model.pojo.ProductCart" />
+    </data>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cv_summary_card"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/margin_8"
+        android:background="@drawable/shippingcard"
+        app:cardCornerRadius="15dp"
+        app:cardElevation="5dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/img_product_summary"
+                android:layout_width="145dp"
+                android:layout_height="140dp"
+                android:layout_gravity="start"
+                android:scaleType="fitXY"
+                android:src="@drawable/init_img"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/tv_product_name"
+                style="@style/TitleColor"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/margin_8"
+                android:layout_marginTop="@dimen/margin_8"
+                android:text="@{summary.name}"
+                android:textSize="16sp"
+                app:layout_constraintStart_toEndOf="@+id/img_product_summary"
+                app:layout_constraintTop_toTopOf="@+id/img_product_summary" />
+
+            <TextView
+                android:id="@+id/tv_Quantity"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_8"
+                android:text="@{``+summary.cartQuantity}"
+                android:textSize="12sp"
+                app:layout_constraintStart_toStartOf="@+id/tv_product_name"
+                app:layout_constraintTop_toBottomOf="@+id/tv_product_name" />
+
+
+            <TextView
+                android:id="@+id/tv_Category"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="@{summary.category}"
+                android:textSize="12sp"
+                app:layout_constraintStart_toStartOf="@+id/tv_Quantity"
+                app:layout_constraintTop_toBottomOf="@+id/tv_Quantity" />
+
+
+            <TextView
+                android:id="@+id/tv_discount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:background="@drawable/discount"
+                android:paddingLeft="8dp"
+                android:paddingTop="2dp"
+                android:paddingRight="8dp"
+                android:paddingBottom="2dp"
+                android:visibility="@{(summary.discount == 0.0?View.INVISIBLE:View.VISIBLE)}"
+                android:text="@{@string/LE((int)summary.discount)}"
+                android:textColor="@color/white"
+                android:textSize="12sp"
+                app:layout_constraintStart_toStartOf="@+id/tv_Category"
+                app:layout_constraintTop_toBottomOf="@+id/tv_Category" />
+
+            <TextView
+                android:id="@+id/tv_specialDiscound"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:text="@{(summary.specialDiscount == null?` `: summary.specialDiscount.discountType.name +` : `+ @string/LE((int)summary.specialDiscount.discount)) }"
+                android:textSize="12sp"
+                app:layout_constraintBottom_toBottomOf="@+id/tv_discount"
+                app:layout_constraintStart_toEndOf="@+id/tv_discount"
+                app:layout_constraintTop_toTopOf="@+id/tv_discount" />
+
+            <TextView
+                android:id="@+id/tv_shipping"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:text="@{`Shipping : `+@string/LE((int)summary.shipping)}"
+                android:textSize="12sp"
+                app:layout_constraintStart_toEndOf="@+id/img_product_summary"
+                app:layout_constraintTop_toBottomOf="@+id/tv_discount" />
+
+            <TextView
+                android:id="@+id/tv_price_simmary"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:layout_marginEnd="@dimen/margin_8"
+                android:layout_marginBottom="@dimen/margin_8"
+                android:text="@{@string/LE(summary.price)}"
+                android:textColor="@color/redShopex"
+                android:textSize="12sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+    </androidx.cardview.widget.CardView>
+
+</layout>
+

@@ -1,0 +1,239 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <string name="maps_key">API_KEY</string>
+    <string name="app_name">ShopLex</string>
+    <string name="chat">Chat</string>
+    <string name="LastOrder">Last Order</string>
+    <string name="productName">Product Name</string>
+    <string name="product">Products</string>
+    <string name="reviews">Reviews</string>
+    <string name="NoReviews">No Reviews Yet!</string>
+    <string name="property">Select Size</string>
+    <string name="todo">TODO</string>
+    <string name="category">Sub Category</string>
+    <string name="Add">Add To Cart</string>
+    <string name="Remove">Remove Cart</string>
+    <string name="buy">Buy Now</string>
+    <string name="TV">TV</string>
+    <string name="sold">%s/%s Sold</string>
+    <string name="name">name</string>
+    <string name="user_name">User Name</string>
+    <string name="type_a_message">Type a Message</string>
+    <string name="chatdiscount">You Can Agree With Seller About Any Discount</string>
+    <string name="cancel">Cancel</string>
+    <string name="orders">Orders</string>
+    <string name="currentOrder">Current Order</string>
+    <string name="logOut">Logout</string>
+    <string name="profile">Profile</string>
+    <string name="share">Share</string>
+    <string name="setting">Settings</string>
+    <string name="rateUs">Rate Us</string>
+    <string name="arabic">Arabic</string>
+    <string name="email">E-mail</string>
+    <string name="phone">Phone Number</string>
+    <string name="password">Password</string>
+    <string name="save">Save</string>
+    <string name="helperText">You Can`t Change Your Email Address</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="filter">Filter</string>
+    <string name="login">Login</string>
+    <string name="fullAccess">Login for full access</string>
+    <string name="forgotPassword">Forget Password?</string>
+    <string name="reset">Reset</string>
+    <string name="close_dialog">Close</string>
+    <string name="email_send">Email Send</string>
+    <string name="Checkout">Checkout</string>
+    <string name="Payment">Payment</string>
+    <string name="Summary">Summary</string>
+    <string name="DeliveryMethod">Delivery Method</string>
+    <string name="Cost">Products Cost</string>
+    <string name="SpecialCoupons">Special Coupons</string>
+    <string name="DontHaveSpecialCoupons">You Don\'t Have Any Special</string>
+    <string name="DoorDelivery">Door Delivery</string>
+    <string name="NearestPostStation">Nearest Post Station</string>
+    <string name="SubTotal">SubTotal</string>
+    <string name="Discount">Discount</string>
+    <string name="Shipping">Shipping</string>
+    <string name="Total">Total Amount</string>
+    <string name="totalPrice">220 $</string>
+    <string name="ShippingAddress">Shipping Address</string>
+    <string name="change">Change</string>
+    <string name="process">Process To Payment</string>
+    <string name="paymentmethod">Payment Method</string>
+    <string name="cash">Cash on Delivery</string>
+    <string name="Quantity">Quantity</string>
+    <string name="Price">Price</string>
+    <string name="confirmorder">Confirm Order</string>
+    <string name="shopes">Shopes</string>
+    <string name="rate">Rating</string>
+    <string name="discountFilter">Discount</string>
+    <string name="sort">Sorting</string>
+    <string name="nearest_shop">Nearest Shop</string>
+    <string name="outOfStock">Out Of Stock</string>
+    <string name="NA">N/A</string>
+    <string name="LE">%s L.E.</string>
+
+    <string-array name="initial_slider_values">
+        <item>10</item>
+        <item>1000</item>
+    </string-array>
+    <!-- Strings used for fragments for navigation -->
+
+    <string name="Name">Name</string>
+    <string name="choose_location">Choose Your Location</string>
+
+    <string name="Required">Required</string>
+    <string name="require_email">Required E-mail</string>
+    <string name="min_password_err">"Week Password "</string>
+    <string name="not_match">Invalid Password</string>
+    <string name="min_client_name_err">Invalid Short Name</string>
+    <string name="default_notification_channel_id" translatable="false">fcm_default_channel</string>
+    <string name="msg_token_fmt" translatable="false">FCM registration Token: %s</string>
+    <string name="login_success">Login Success</string>
+    <string name="login_fail">Login Failed</string>
+    <string name="logoutMessage">Are You Sure You Want To Logout?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="totalAmount">Total Amount</string>
+    <string name="what_is_your_rate">What is your Rate?</string>
+    <string name="please_share_your_oponion_about_the_product">Please Share Your Opinion About The Product</string>
+    <string name="your_review">Your Review</string>
+    <string name="send_review">Send Review</string>
+    <string name="notification">Notification</string>
+    <string name="English">English</string>
+    <string name="العربية">العربية</string>
+    <string name="productId">productID</string>
+    <string name="Delivery">Delivery</string>
+    <string name="favorite">Favorite</string>
+    <string name="Products">Products</string>
+    <string name="Reviews">Reviews</string>
+    <string name="ClickableViewAccessibility">ClickableViewAccessibility</string>
+    <string name="notchannelid">net.larntech.notification</string>
+    <string name="title">title</string>
+    <string name="body">body</string>
+    <string name="custom">custom://</string>
+    <string name="actionstring">actionstring</string>
+    <string name="UpdateReview">Update Review</string>
+    <string name="Review">Review</string>
+    <string name="android">android.resource://</string>
+    <string name="splash">/</string>
+    <string name="Position">Position</string>
+    <string name="EGP">%s EGP</string>
+    <string name="StrEGP">EGP</string>
+    <string name="storename">storeName</string>
+    <string name="OK">OK</string>
+    <string name="confirm">Confirm</string>
+    <string name="messages">messages</string>
+    <string name="Success">Success</string>
+    <string name="pleaseLogin">Please Login to Access All Features</string>
+    <string name="Error">Error</string>
+    <string name="underscore">_</string>
+    <string name="telephone">tel:</string>
+    <string name="tel">tel:</string>
+    <string name="ERROR">ERROR</string>
+    <string name="call">call</string>
+    <string name="noitem">There Is No Item Yet!!!</string>
+    <string name="choose_image">Please Choose Image</string>
+    <string name="enter_mobile">Please Enter Valid Mobile(+2)</string>
+    <string name="Product_not_found">Product Not Found!</string>
+    <string name="no_store">No stores Found</string>
+    <string name="phone_not_specified">Phone Number is not specified</string>
+    <string name="delete">Delete</string>
+    <string name="deleteMessage">Are You Sure You Want To Delete This Item?</string>
+    <string name="deleteSuccess">Delete Success</string>
+    <string name="errorRegister">couldn"'"t register</string>
+    <string name="createAccount">Login Success</string>
+    <string name="errorAuth" >Auth Failed!</string>
+    <string name="failed">Failed</string>
+    <string name="cancelOrder">Cancel!!</string>
+    <string name="cancelMessage">Are You Sure To Cancel Your Order?!!</string>
+    <string name="max">Max Quantity</string>
+    <string name="report">Report</string>
+    <string name="proplem">Please Share Us What Is Your Proplem!!</string>
+    <string name="your_report">Your Report</string>
+    <string name="send_report">Send Report</string>
+    <string name="facebook_app_id">562190761433964</string>
+    <string name="fb_login_protocol_scheme">fb562190761433964</string>
+    <string name="phone_hint">+201204876123</string>
+    <string name="visaORMaster">Visa/ Master Card</string>
+    <string name="items">%s Items</string>
+    <string name="emailExist">This Registration Email Exist</string>
+    <string name="Login">Login</string>
+    <string name="Signup">Signup</string>
+    <string name="Confirmpassword">Confirm password</string>
+    <string name="UpdateAccount">Account Updated Successfully</string>
+    <string name="error">Error</string>
+    <string name="processtosummary">Process To Summary</string>
+    <string name="fail_payment">Failed to load payment method</string>
+    <string name="minimum_charge">Minimum Charge With Credit/Debit Card 10 L.E.</string>
+
+    <string name="NoInternetConnection">Your are currently offline please go online back and try again!</string>
+    <string name="Telephone">Telephone not supported</string>
+    <string name="cart">Cart</string>
+    <string name="home">Home</string>
+    <string name="account">Account</string>
+    <string name="search">Search</string>
+    <string name="high_price">High Price</string>
+    <string name="low_price">Low Price</string>
+    <string name="not_connection">No Connection</string>
+    <string name="orLoginwith">Or Login With</string>
+    <string name="emptyCart">Empty Cart</string>
+    <string name="language">اللغه العربيه</string>
+    <string name="welcomeShoplex">Welcome To Shoplex</string>
+    <string name="check_address">Please Select Delivery Address</string>
+    <string name="noStores">No stores for this category!</string>
+    <string name="pleaseAddRate">Please Add Rate</string>
+    <string-array name="categories">
+        <item>Fashion</item>
+        <item>Health Care</item>
+        <item>Phone and Tablets</item>
+        <item>Electronics</item>
+        <item>Accessories</item>
+        <item>Books</item>
+    </string-array>
+
+
+    <string-array name="arr_subFashion">
+        <item>Men</item>
+        <item>Women</item>
+        <item>Kids</item>
+    </string-array>
+
+    <string-array name="arr_subHealthCare">
+        <item>Haircare</item>
+        <item>Perfume</item>
+        <item>Makeup</item>
+    </string-array>
+
+    <string-array name="arr_subPhoneAndTablet">
+        <item>Phones</item>
+        <item>Tablets</item>
+        <item>I_Pad</item>
+    </string-array>
+
+    <string-array name="arr_subElectronic">
+        <item>TVS</item>
+        <item>Audio</item>
+        <item>Smart_Watches</item>
+        <item>Cameras</item>
+        <item>Others</item>
+    </string-array>
+
+    <string-array name="arr_subAccessories">
+        <item>Jewellery</item>
+        <item>Watches</item>
+        <item>Belts</item>
+        <item>Phone_Cases</item>
+        <item>Cables</item>
+        <item>Charges</item>
+        <item>Selfie_Stick</item>
+    </string-array>
+
+    <string-array name="arr_subBook">
+        <item> Art_and_Humanities</item>
+        <item>Fiction</item>
+        <item>Entertainment</item>
+        <item>Science_and_Technology</item>
+        <item>Education</item>
+    </string-array>
+</resources>

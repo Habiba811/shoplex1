@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".view.fragments.SummaryFragment">
+
+    <LinearLayout
+        android:id="@+id/linearLayout3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/margin_8"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="@dimen/margin_4"
+            android:orientation="horizontal"
+            android:weightSum="3">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/height_28"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:text="@string/DeliveryMethod"
+                style="@style/TitleColor"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tv_delivery_statue"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/height_28"
+                android:layout_weight="2"
+                android:gravity="center_horizontal|center_vertical|end"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="@dimen/margin_4"
+            android:orientation="horizontal"
+            android:weightSum="3">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/height_28"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:text="@string/paymentmethod"
+                style="@style/TitleColor"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tv_payment_statue"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/height_28"
+                android:layout_weight="2"
+                android:gravity="center_horizontal|center_vertical|end"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/margin_4"
+            android:orientation="horizontal"
+            android:weightSum="3">
+
+            <TextView
+                android:id="@+id/tv_Total"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/height_28"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:text="@string/Total"
+                style="@style/TitleColor"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tvTotalPrice"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/height_28"
+                android:layout_weight="2"
+                android:gravity="center_horizontal|center_vertical|end"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <View
+            android:id="@+id/price_view"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_gravity="center"
+            android:layout_weight="3"
+            android:background="@android:color/darker_gray"
+            app:layout_constraintEnd_toEndOf="@+id/linear_layout_delivery"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/linear_layout_delivery"
+            app:layout_constraintTop_toBottomOf="@+id/linear_layout_delivery" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tv_item_num"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+
+        android:layout_marginTop="8dp"
+        android:padding="@dimen/padding_8"
+        android:text="4 Items"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="@+id/linearLayout3"
+        app:layout_constraintStart_toStartOf="@+id/linearLayout3"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout3" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rv_summary"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:maxHeight="300dp"
+        android:orientation="vertical"
+        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+        app:layout_constraintBottom_toTopOf="@+id/btn_summary"
+        app:layout_constraintEnd_toEndOf="@+id/tv_item_num"
+        app:layout_constraintStart_toStartOf="@+id/tv_item_num"
+        app:layout_constraintTop_toBottomOf="@+id/tv_item_num"
+        tools:listitem="@layout/rv_summary_cardview" />
+
+    <Button
+        android:id="@+id/btn_summary"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:clickable="false"
+        android:enabled="false"
+        android:insetBottom="0dp"
+        android:text="@string/confirmorder"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+

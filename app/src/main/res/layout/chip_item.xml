@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.chip.Chip xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/chip_item"
+    style="@style/Widget.MaterialComponents.Chip.Entry"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:checkable="true"
+    app:closeIconEnabled="false"
+    app:chipCornerRadius="@dimen/width_0"
+    android:text="@string/category"
+    android:textAlignment="center"
+    app:checkedIcon="@drawable/ic_check"
+    android:gravity="center_horizontal" />

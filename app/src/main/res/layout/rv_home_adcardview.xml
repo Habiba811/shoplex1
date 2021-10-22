@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+        <variable
+            name="product"
+            type="com.alpha.shoplex.model.pojo.Product" />
+    </data>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/card_view_ads"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginStart="@dimen/margin_4"
+        android:layout_marginEnd="@dimen/margin_4"
+        app:cardCornerRadius="7dp">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="@dimen/width_250"
+            android:layout_height="130dp">
+
+            <ImageView
+                android:id="@+id/img_advertisement"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:contentDescription="@string/app_name"
+                android:scaleType="fitXY"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/fashion" />
+
+            <TextView
+                android:id="@+id/txt_advertisement"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:background="#BF807D7D"
+                android:padding="2dp"
+                android:text="@{product.name}"
+                android:textColor="@color/white"
+                android:textSize="18sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent" />
+
+            <TextView
+                android:id="@+id/tv_offer"
+                android:layout_width="90dp"
+                android:layout_height="23dp"
+                android:background="@drawable/adstyle"
+                android:gravity="center"
+                android:layoutDirection="ltr"
+                android:rotation="-45"
+                android:text="@{(int)(product.discount) +`% Off`}"
+                android:textColor="@color/white"
+                android:textSize="@dimen/text_size_12"
+                android:translationX="-21dp"
+                android:translationY="11dp"
+                android:visibility="invisible"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/img_advertisement" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </androidx.cardview.widget.CardView>
+</layout>
